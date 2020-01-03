@@ -38,20 +38,21 @@ module.exports = {
     该配置项用于定义应用的全局（所有页面均需引用的）样式文件、模块或第三方库。
   */
   css: [
-    '~/assets/style.css'
+    '~/assets/style.css',
+    'element-ui/lib/theme-chalk/index.css'
   ],
 
   /*
   Nuxt.js允许您在运行Vue.js应用程序之前执行js插件
   */
   plugins: [
+    '@/plugins/element-ui'
   ],
 
   /*
   该配置项允许您将Nuxt模块添加到项目中。模块只是在引导Nuxt时按顺序调用的函数, 用来扩展 Nuxt 的核心功能
   */
-  modules: [
-  ],
+  modules: [],
 
   /* Nuxt.js 允许你在自动生成的 vendor.bundle.js 文件中添加一些模块，以减少应用 bundle 的体积。如果你的应用依赖第三方模块，这个配置项是十分实用的。 */
   build: {

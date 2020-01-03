@@ -1,7 +1,9 @@
-# COMPONENTS
+[Comment Translate] Google
 
-**This directory is not required, you can delete it if you don't want to use it.**
+# 组件
 
-The components directory contains your Vue.js Components.
+**此目录不是必需的，如果您不想使用它，可以将其删除。**
 
-_Nuxt.js doesn't supercharge these components._
+components目录包含您的Vue.js组件。
+
+_Nuxt.js不会增强这些组件。 
