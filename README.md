@@ -1,6 +1,6 @@
-# Nuxt.js Fundamentals
+# Nuxt.js基础知识
 
-This repository contains the example code for the [Nuxt.js Fundamentals](https://vueschool.io/courses/nuxtjs-fundamentals) course.
+
 
 Nuxt.js 集成了以下组件/框架，用于开发完整而强大的 Web 应用：
 
@@ -13,41 +13,18 @@ Nuxt.js 集成了以下组件/框架，用于开发完整而强大的 Web 应用
 
 另外，Nuxt.js 使用 Webpack 和 vue-loader 、 babel-loader 来处理代码的自动化构建工作（如打包、代码分层、压缩等等）。
 
-![aaa](https://zh.nuxtjs.org/nuxt-schema.svg)
+
+![组件的运行流程](https://zh.nuxtjs.org/nuxt-schema.svg)
 
 
+``` 
+别名	     目录
 
-别名	   目录
-
-~ 或 @	srcDir
+~ 或 @	    srcDir
 
 ~~ 或 @@	rootDir
+```
 
-
-
-Nuxt.js is a framework for creating Vue.js applications. Its goal is to help Vue developers take advantage of top-notch technologies and features in a fast, easy and organized way. 
-
-**It is easy to get started with Nuxt.js!**
-
-The course covers the fundamentals of Nuxt.js and serves as a platform for everyone who wants to get started with Nuxt.
-
-You **do not need to know Nuxt.js** to take this course, but you **should know [Vue.js](https://vueschool.io/courses)**.
-
-After this course, you will be familiar with:
-- What Nuxt.js is and how it can help you and your projects
-- How to scaffold new Projects with their `create-nuxt-app` tool
-- The structure of a Nuxt application
-- Creating and navigating between pages
-- Setting up meta tags for improved SEO
-- Building and deploying a Nuxt.js App
-- How to deploy your apps to Heroku and Netlify
-
-This course is made **together** with the **Chopin brothers** (founders of [Nuxt.js](https://nuxtjs.org/)) and core member **Alexander Lichter**.
-
-The course is free. [Enroll at Vue School!](https://vueschool.io/courses/nuxtjs-fundamentals)
-
-
----
 
 ## Build Setup
 
@@ -65,5 +42,7 @@ $ yarn start
 # 为基于 Vue.js 的应用提供生成对应的静态站点的功能 (预渲染)。是向开发集成各种微服务（Microservices）的 Web 应用迈开的新一步
 $ yarn run generate
 ```
+
+This repository contains the example code for the [Nuxt.js Fundamentals](https://vueschool.io/courses/nuxtjs-fundamentals) course.
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
