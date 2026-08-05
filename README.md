@@ -1,3 +1,11 @@
+[English](./README.en.md)
+
+<!-- codex-github-rules:bilingual-summary -->
+> **中文简介**：Nuxt.js 项目结构、配置说明与前端模板
+>
+> **English summary**: A Nuxt.js project guide covering structure, configuration, and frontend templates
+
+---
 # Nuxt.js基础知识
 
 
